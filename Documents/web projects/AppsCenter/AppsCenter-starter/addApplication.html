@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppsCenter</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="add.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <img src="./images/AppsCenter.png">
+    </div>
+    
+    <div class="container w-50 bg-light addmenu">
+        <div class="title">Add Application</div>
+        <hr class="hr">
+        <form id = "form">
+            <div class="input-group mt-4">
+                <div class="col-2"></div>
+                <div class="col-3"> <strong> App name*: </strong> </div>
+                <span class="inputspan input-group-text">Aa</span>
+                <input type="text" class="form-control" id="name" placeholder="App name" aria-label="App name" aria-describedby="basic-addon1" >
+                <div class="col-2"></div>
+            </div>
+              
+            <div class="input-group mt-4">
+                <div class="col-2"></div>
+                <div class="col-3"> <strong> App price*: </strong> </div>
+                <span class="inputspan input-group-text"> $ </span>
+                <input type="text" class="form-control" id="price" placeholder="App price" aria-label="App price" aria-describedby="basic-addon1" >
+                <div class="col-2"></div>
+            </div>
+
+            <div class="input-group mt-4">
+                <div class="col-2"></div>
+                <div class="col-3"> <strong> App description: </strong> </div>
+                <span class="inputspan input-group-text">Aa</span>
+                <input type="text" class="form-control" id="description" placeholder="App description" aria-label="App description" aria-describedby="basic-addon1" >
+                <div class="col-2"></div>
+            </div>
+
+            <div class="input-group mt-4">
+                <div class="col-2"></div>
+                <div class="col-3"> <strong> Company name: </strong> </div>
+                <span class="inputspan input-group-text">Aa</span>
+                <input type="text" class="form-control" id="companyName" placeholder="Company name" aria-label="Company name" aria-describedby="basic-addon1" >
+                <div class="col-2"></div>
+            </div>
+
+            <div class="input-group mt-4">
+                <div class="col-2"></div>
+                <div class="col-3"> <strong> Image url: </strong> </div>
+                <span class="inputspan input-group-text">url</span>
+                <input type="text" class="form-control" id="imageUrl" placeholder="Image url" aria-label="Image url" aria-describedby="basic-addon1" >
+                <div class="col-2"></div>
+            </div>
+
+            <div class = "centeredButton mt-5">
+                <input type="submit" id="submit" class="btn btn-success h-100 text-light" value="publish application">
+            </div>
+
+            <div class = "text-danger text-center mt-3 errorBar" id="errorBar">
+                
+            </div>
+        </form>
+    </div>
+
+    <script src="node_modules/jquery/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="AddApp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
